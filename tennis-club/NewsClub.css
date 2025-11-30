@@ -1,0 +1,636 @@
+@import url('stylesheet.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Gilroy';
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header-about-club{
+    width: 100%;
+    height: 263px;
+    
+    background-image: url(img/55fc92ff86636dc0802da8fc92dbe34c3de348e3.jpg);
+
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-about-club::before {
+  content: ""; /* Пустое содержимое для псевдоэлемента */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Чёрный цвет с прозрачностью 0.5 (от 0 до 1, где 1 — полностью чёрный) */
+  z-index: 0; /* Помещаем оверлей под контентом */
+}
+
+.nav-block-about-club{
+    padding-inline: 312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-list-about-club{
+        display: flex;
+        padding-top: 43px;
+    }
+
+    .nav-list-about-club>ul{
+        z-index: 1;
+        gap: 40px;
+        display: flex;
+    }
+
+    .nav-list-about-club>ul>li{
+        list-style: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .nav-list-about-club>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .logo-about-club{
+        z-index: 1;
+        padding-top: 40px;
+    }
+
+    .nav-btn-about-club{
+        z-index: 1;
+        padding-top: 35px;
+        display: flex;
+        gap: 20px;
+
+    }
+}
+
+   .border-about-club{
+   margin-top: 25px;
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: #b3acac;
+}
+
+.header-title-about-club{
+    width: 636px;
+    height: 67px;
+    padding-left: 45%;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.3;
+    z-index: 1;
+    position: relative;
+    font-size: 28px;
+    display: block;
+    white-space: nowrap;
+}
+
+.main-conteiner-news-club{
+    display: flex;
+    width: 1296px;
+    height: 610px;
+    margin-inline: 312px;
+    margin-top: 80px;
+    margin-bottom: 250px;
+
+    flex-direction: column;
+
+}
+        
+        .left-arrow-conteiner{
+            width: 45.8px;
+            height: 45px;
+            background-color: #8D86C9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -2.5px;
+        }
+   
+        .tennis-courts-bnt__left-arrow{
+            width: 15.5px;
+            height: 15.5px;
+        }
+
+.tennis-courts{
+    display: flex;
+    justify-content: space-between;
+
+    .tennis-courts-tex{
+            font-weight: 700;
+            font-size: 24px;
+    }
+
+    .tennis-courts-bnt{
+            display: flex;
+            gap: 15px;
+    }
+
+    .tennis-courts-bnt>button{
+            border-style: none;
+            background-color: unset;
+            position: relative;
+            z-index: 1;
+            cursor: pointer;
+    }
+        
+
+
+        .tennis-courts-bnt-right::before{
+            content: url(img/Vector-right.svg);
+            position: absolute;
+            transform: translate(80%, -50%);
+            z-index: 2;
+            top: 25px;
+    }
+
+    
+
+}
+
+.main-conteiner-img-tennis-courts{
+    display: flex;
+    width: 1296px;
+    height: 500px;
+
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #F7ECE1;
+    padding: 25px 20px;
+    margin-top: 60px;
+
+    .conteiner-img{
+        display: flex;
+        width: 1256px;
+        height: 450px;
+        flex-direction: column-reverse;
+
+        background-image: url(img/4bfa5ed23f712aad387f535c58004e5c72466bed.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+
+
+    }
+
+        .conteiner-img::before {
+  content: ""; /* Пустое содержимое для псевдоэлемента */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Чёрный цвет с прозрачностью 0.5 (от 0 до 1, где 1 — полностью чёрный) */
+  z-index: 0; /* Помещаем оверлей под контентом */
+}
+
+.conteiner-img>button{
+     display: flex;
+     border-style: none;
+     background-color: #8D86C9;
+     align-items: center;
+
+     margin-left: 50px;
+     margin-bottom: 40px;
+     width: 145px;
+     height: 45px;
+     z-index: 1;
+     cursor: pointer;
+}
+
+.conteiner-img>button>span>p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+
+
+}
+    
+}
+
+.about-tennis-club{
+    width: 1296px;
+    height: 764px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    padding-inline: 752px;
+    position: relative;
+
+   .img-coneiner-text-conteiner-about-club{
+    display: flex;
+    position: relative;
+
+    .text-conteiner-about-club{
+        min-width: 856px;
+        height: 654px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F7ECE1;
+        align-items: center;
+        padding-left: 70px;
+        position: relative;
+    }
+
+    .text-conteiner-about-club>div>h2{
+        font-size: 36px;
+        font-weight: 700;
+        color: #333333;
+        line-height: 140%;
+    }
+
+    .text-conteiner-about-club>div{
+        display: block;
+        width: 650px;
+        height: 100px;
+        margin-top: 70px;
+    }
+
+    .text-conteiner-about-club>div>p{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 140%;
+        color: #333333;
+    }
+
+    .text-conteiner-about-club>.main-text-text-conteiner-about-club{
+        width: 650px;
+        height: 248px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        gap: 14px;
+    }
+
+    .text-conteiner-about-club>.main-text-text-conteiner-about-club>p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 140%;
+    } 
+    
+    .img-coneiner-about-club{
+        width: 526px;
+        height: 514px;
+        display: block;
+
+        background-image: url(img/b906e0ac4975b41ab7102a465db020017c5d93c6.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        z-index: 1;
+
+        position: absolute;
+
+        left: -28rem;
+        top: 70px;
+        bottom: 70px;
+    }
+   }
+
+}
+
+.numb-text{
+    display: flex;
+    gap: 36.34px;
+    margin-top: 50px;
+    padding-left: 20px;
+
+    .second-numb-text{
+        display: flex;
+        gap: 16.5px;
+        white-space: nowrap;
+    }
+
+    .second-numb-text>p{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 140%;
+        color: #333333;
+
+    }
+}
+
+
+.about-tennis-club-h2{
+    display: block;
+    min-width: 136px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    top: -90px;
+    left: 19rem;
+
+    
+}
+
+.about-tennis-club-h2>h2{
+font-weight: 700;
+font-size: 36px;
+color: #333333;
+}
+
+.rules-about-club{
+    width: 1326px;
+    height: 1086px;
+    
+    margin-left: 312px;
+    margin-top: 120px;
+
+    display: flex;
+    flex-direction: column;
+
+    .mini-rules-about-club{
+        width: 366px;
+        height: 432px;
+        display: block;
+        position: relative;
+        
+    }
+}
+
+.rules-about-club h2{
+font-weight: 700;
+font-size: 36px;
+color: #333333;
+}
+
+.mini-rules-about-club>ol>li{
+    font-size: 21px;
+    color: #333333;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.mini-rules-about-club>ol{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    list-style-position:inside;
+    margin-top: 80px;
+
+
+}
+
+.mini-rules-about-club .pirple-3{
+    padding-left: 30px;
+    color: #8D86C9;
+
+}
+
+.ferst-rules-about-club{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    width: 886px;
+    height: 949px;
+    left: 800px;
+    top: 138rem;
+}
+
+.rule-3and1{
+    display: flex;
+    flex-direction: column;
+}
+
+.rule-3and1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    white-space: nowrap;
+}
+
+
+
+.h3-rule-3and1{
+    display: block;
+    width: 856px;
+    height: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.h3-rule-3and1>h3{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.h3-rule-3and1::before{
+    content: "3.1.";
+    position: absolute;
+    left: -30px;
+    top: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+
+}
+
+.purple-point-3and1{
+    display: block;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    font-weight: 400;
+    position: relative;
+}
+
+.purple-point-3and1::before{
+    content: url('img/Rectangle 68.svg');
+    position: absolute;
+    top: -5px;
+    left: -28px;
+}
+
+.rule-3and2{
+    display: flex;
+    flex-direction: column;   
+}
+
+.h3-rule-3and2{
+    display: block;
+    width: 856px;
+    height: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.rule-3and2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    white-space: nowrap;
+}
+
+.h3-rule-3and2>h3{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.h3-rule-3and2::before{
+    content: "3.2.";
+    position: absolute;
+    left: -30px;
+    top: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+
+}
+
+.purple-point-3and2{
+    display: block;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    font-weight: 400;
+    position: relative;
+}
+
+.purple-point-3and2::before{
+    content: url('img/Rectangle 68.svg');
+    position: absolute;
+    top: -5px;
+    left: -28px;
+}
+
+.rule-3and3{
+    display: flex;
+    flex-direction: column;   
+}
+
+.h3-rule-3and3{
+    display: block;
+    width: 856px;
+    height: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.h3-rule-3and3>h3{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.h3-rule-3and3::before{
+    content: "3.3.";
+    position: absolute;
+    left: -30px;
+    top: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+
+}
+
+.tex-in-rule-3and3{
+    display: block;
+    
+    height: 260px;
+    position: relative;
+    
+    
+
+}
+
+.tex-in-rule-3and3>p{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 140%;
+    position: absolute;
+    left: -30px;
+}
+
+.purple-point-3and3{
+    display: block;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    font-weight: 400;
+    position: relative;
+}
+
+.purple-point-3and3::before{
+    content: url('img/Rectangle 68.svg');
+    position: absolute;
+    top: -5px;
+    left: -28px;
+}
+
+.rule-3and3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    white-space: nowrap;  
+}
+
+.footer-about-club{
+    display: flex;
+    background-color: #F7ECE1;
+    width: 100%;
+    height: 96px;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.left-footer-about-club{
+    font-size: 14px;
+    color: #85737344;
+    font-weight: 500;
+    margin-right: 104px;
+    padding-left: 312px;
+    
+}
+
+.central-footer-about-club ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 104px;
+}
+
+
+.central-footer-about-club>ul>li{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.right-footer-about-club{
+    display: flex;
+    gap: 19px;
+}
+
+
+
+
+

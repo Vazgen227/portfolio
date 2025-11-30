@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Корректные пути для всех шрифтов */
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-UltraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal; /* Добавлено, так как было пропущено */
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-UltraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RF Tone';
+    src: url('src/fonts/RFTone-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}

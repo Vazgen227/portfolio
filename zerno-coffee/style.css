@@ -1,0 +1,616 @@
+@import url('font.css');
+
+body {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    
+  background-image: url('img/1666348830_4-zefirka-club-p-fon-dlya-kofeini-4.jpg'); /* Путь к изображению */
+  background-size: cover; /* Растягивает изображение, сохраняя пропорции, и покрывает весь фон */
+  background-position: center; /* Центрирует изображение */
+  background-repeat: no-repeat; /* Предотвращает повторение изображения */
+  min-height: 100vh; /* Минимальная высота равна высоте окна браузера */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.lend {
+    margin: auto;
+    display: flex;
+    width: 1600px;
+    height: 440px;
+    background-color: rgba(252, 236, 220, 1);
+    box-shadow: 0 0 10px rgba(88, 58, 45, 0.4);
+}
+
+.left-lend {
+    font-family: 'RF Tone';
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    background-color: #F2994A;
+    height: 100%;
+    width: 515px;
+    box-shadow: 0 0 10px rgba(88, 58, 45, 0.4);
+}
+
+.left-logo {
+    width: 300px;
+    height: 68px
+}
+
+#zerno {
+    top: 32px;
+    color: rgba(252, 236, 220, 1);
+    font-size: 40px;
+    left: 3em;
+    position: absolute;
+    font-weight: 600;
+}
+
+#svg {
+    box-sizing: border-box;
+    padding-left: 17px;
+    padding-block: 10px;
+    box-shadow: 0 0 10px rgba(88, 58, 45, 0.4);
+    margin-top: 25px;
+    margin-left: 30px;
+    height: 68px;
+    width: 68px;
+    background-color: rgba(252, 236, 220, 1);
+}
+
+.left-logo {
+    position: relative;
+}
+
+#cofe-nadpis {
+    font-family: Bitter;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: antiquewhite;
+}
+
+.left-text {
+    padding-bottom: 1.5rem;
+    padding-inline: 1.9rem;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+.flex-text {
+    font-size: 14px;
+    padding-inline: 2rem;
+    padding-bottom: 2rem;
+    color: antiquewhite;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+li {
+    margin-left: 21px;
+}
+
+.right-lend {
+    height: 100%;
+    flex-grow: 1;
+
+    background-image: url('img/right-header-bg.png');
+
+    background-repeat: no-repeat;
+
+    background-position: center bottom;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 30px;
+
+}
+
+.tex-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 100%;
+    width: 300px;
+}
+
+.right-side {
+    text-align: end;
+}
+
+h5 {
+    font-family: Bitter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(66, 42, 32, 1);
+}
+
+.small-text>p {
+    font-family: 'RF Tone';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(66, 42, 32, 1);
+    margin-top: 12px;
+
+}
+
+nav {
+    height: 64px;
+    width: 1660px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(130, 80, 56, 1);
+    margin-top: 20px;
+    padding: 15px 30px;
+    box-shadow: 0 0 10px rgba(88, 58, 45, 0.4);
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'RF Tone';
+
+    .icon {
+        display: flex;
+    }
+
+}
+
+.btn-left {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    background-color: unset;
+    border-style: none;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 10px;
+    color: rgba(248, 216, 185, 1);
+    font-family: 'RF Tone';
+}
+
+
+.border {
+    position: absolute;
+    height: 2.5px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(217, 93, 57, 1);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+
+}
+
+.small-icon {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+
+.btn-right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    background-color: unset;
+    border-style: none;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 10px;
+    color: rgba(248, 216, 185, 1);
+    font-family: 'RF Tone';
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'RF Tone';
+}
+
+.vr {
+    align-self: stretch;
+    width: 2px;
+    background-color: rgba(217, 93, 57, 1);
+}
+
+.main-cont {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(88, 58, 45, 0.4);
+    display: flex;
+    grid-gap: 20px;
+    padding: 30px;
+    margin-top: 27px;
+    position: relative;
+    flex-direction: column;
+
+    .conten-inflex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .conten-inflex h2 {
+        font-weight: 700;
+        font-family: 'RF Tone';
+    }
+
+
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .tea-card {
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        max-width: 330px;
+        min-height: 550px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #ECE6E4;
+        overflow: hidden;
+    }
+
+    .heder-tea-card {
+        background-color: #FCECDC;
+        max-width: 326px;
+        min-height: 342px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 0px 10px 0px #583A2D66;
+    }
+
+    .card-pich {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 40px;
+        padding-block: 50px;
+        position: relative;
+    }
+
+    .heder-tea-card>p {
+        position: absolute;
+        top: 17rem;
+        left: 18px;
+        right: 50px;
+        font-family: 'RF Tone';
+        font-size: 14px;
+    }
+
+    .heder-tea-card>h5 {
+        position: absolute;
+        top: 14px;
+    }
+
+    .tea-card>div>h6 {
+        color: #F2994A;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'RF Tone';
+    }
+
+    .tea-card>.h6 {
+        display: flex;
+        width: 300px;
+        height: 16px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .bottom-inteacard {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        padding-inline: 15px;
+    }
+
+    .in-teacont {
+        width: 100%;
+        margin-top: 17px;
+
+    }
+
+    .in-teacont>p {
+        line-height: 17px;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'RF Tone';
+        color: #422A20;
+    }
+
+    .param-value {
+        height: 3px;
+        width: 100%;
+        background-color: #FCE6D2;
+        margin-top: 4px;
+
+    }
+
+    .param-vale-orang {
+        height: 100%;
+        background-color: #D95D39;
+        width: 10%;
+    }
+
+    .gr_kg {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+        padding-right: 13px;
+        margin-top: 21px;
+        font-family: 'RF Tone';
+        font-size: 14px;
+        font-weight: 400;
+        color: #825038;
+    }
+
+    .cena {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 15px;
+        padding-right: 13px;
+        margin-top: 10px;
+    }
+
+    .cena>.bc-color {
+        padding: 5px;
+        margin-top: -4px;
+        text-align: center;
+        background-color: #F8D8B9;
+        width: 46px;
+        max-height: 29px;
+        color: #000000;
+    }
+
+    .cena {
+        font-size: 16px;
+        font-family: Bitter;
+        color: #704837;
+        font-weight: 600;
+
+    }
+
+    .bitter-cena {
+        top: 29.3rem;
+        right: 120px;
+        position: absolute;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'RF Tone';
+        color: #9E6542;
+    }
+
+    .bitter-cena-v2 {
+        top: 29.3rem;
+        right: 110px;
+        position: absolute;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'RF Tone';
+        color: #9E6542;
+    }
+
+    .button-dobavit {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 11px;
+    }
+
+    .button-dobavit>button {
+        gap: 10px;
+        cursor: pointer;
+        color: #ECE6E4;
+        font-family: 'RF Tone';
+        border-style: none;
+        background-color: #D95D39;
+        display: flex;
+        padding-inline: 10px;
+        padding-block: 7px;
+        margin-right: 13px;
+        position: relative;
+    }
+
+    .knop-dobav {
+        position: absolute;
+        height: 2.5px;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        background-color: #825038;
+    }
+
+    .icon-indobav {
+        width: 16px;
+        height: 16px;
+        display: flex;
+
+    }
+
+    .heart-cont {
+        display: flex;
+        position: absolute;
+        top: 31rem;
+        left: 12px;
+        cursor: pointer;
+    }
+
+    .heart-cont:hover {
+        background-color: #F8D8B9;
+    }
+
+    .heder-tea-card>p {
+        white-space: nowrap;
+        line-height: 17px;
+    }
+
+    .btn-allcoffe {
+        gap: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        position: relative;
+        background-color: unset;
+        border-style: none;
+        cursor: pointer;
+        height: 32px;
+        padding: 0 10px;
+        color: #422A20;
+        line-height: 17px;
+        font-weight: 400;
+    }
+
+    .border-coffeall {
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(217, 93, 57, 1);
+    }
+
+}
+
+.footer{
+    display: flex;
+    width: 1100px;
+    height: 286px;
+    background-color: #D95D39;
+    box-shadow: 0 0 10px rgba(88, 58, 45, 0.4);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer-prev{
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-prev>svg{
+    margin-bottom: 45px;
+}
+
+.footer-prev>h2{
+    margin-bottom: 11px;
+    font-weight: 700;
+    color: #FCE6D2;
+    font-family: 'RF Tone';
+    font-size: 26px;
+    padding-left: 8px;
+}
+
+.input-infooter{
+    display: flex;
+    gap: 20px;
+    padding-left: 8px;
+}
+
+.input-infooter input{
+    padding: 10px;
+    width: 230px;
+    height: 36px;
+
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+}
+
+.cont-btn{
+    display: flex;
+    padding-left: 8px;
+    margin-top: 27px;
+    gap: 20px;
+
+}
+
+.btn-bottom{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    background-color: #F2994A;
+    border-style: none;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 10px;
+    color: rgba(248, 216, 185, 1);
+    font-family: 'RF Tone';
+    
+}
+
+.small-icon-v2{
+     padding-left: 25px;
+     padding-top: 3px;
+}
+
+.bottom-border{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: #583A2D;
+}
+
+.agreement input[type="checkbox"]{
+     appearance: none;
+     width: 15px;
+     height: 15px;
+     background-color: #FCE6D2;
+     border-radius: 3px;
+     position: relative;
+     cursor: pointer;
+}
+
+.agreement input[type="checkbox"]:checked {
+  background-image: url('img/Vector 45.svg');
+  background-size: 20px 9px; /* Увеличенный размер галочки */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.agreement label{
+    color: #FCE6D2;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'RF Tone';
+}
+
+
+
+
+
