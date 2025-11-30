@@ -72,6 +72,24 @@ https://Vazgen227.github.io/portfolio/tennis-club/
 
 ---
 
+## ☕ Zerno Coffee — Coffee Shop Landing (Desktop Layout)
+
+A coffee shop landing page with warm atmosphere and visual storytelling.
+
+**Features:**
+- hero section with imagery  
+- product / menu blocks  
+- CTA sections  
+- desktop layout  
+
+🔗 **Live Demo:**  
+https://Vazgen227.github.io/portfolio/zerno-coffee/
+
+📁 **Folder:**  
+`/zerno-coffee`
+---
+
+
 ## 🛠 Technologies & Skills
 These projects demonstrate practical experience with:
 
