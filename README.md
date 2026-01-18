@@ -135,6 +135,57 @@ If you'd like to collaborate or discuss a project:
 
 ---
 
+### 🎨 Background Color Generator
+A simple interactive tool that changes the background color dynamically.
+- DOM manipulation
+- Event handling
+- Basic JavaScript logic
+
+---
+
+### ⏱ Countdown Timer
+A countdown timer that tracks remaining time to a specific date.
+- Date and time calculations
+- Real-time UI updates
+- JavaScript intervals
+
+---
+
+### 🔍 GitHub Profiles Viewer
+An application that fetches and displays GitHub user profiles using the GitHub API.
+- API requests (fetch)
+- Async JavaScript
+- Error handling
+- Dynamic content rendering
+
+---
+
+### 📄 Pagination Component
+A reusable pagination logic example.
+- Page state management
+- Dynamic content rendering
+- UI logic separation
+
+---
+
+### 🔐 Password Generator
+A password generator with configurable options.
+- Randomized logic
+- User input handling
+- Practical security-related UI example
+
+---
+
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## Purpose
+These projects were built as learning and practice exercises to strengthen front-end fundamentals, improve JavaScript logic, and gain experience with interactive UI components.
+
 ## 📁 How to Run Locally
 
 ```bash
