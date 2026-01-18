@@ -141,6 +141,9 @@ A simple interactive tool that changes the background color dynamically.
 - Event handling
 - Basic JavaScript logic
 
+🔗 Live Demo:
+https://Vazgen227.github.io/portfolio/BackgroundColor/
+
 ---
 
 ### ⏱ Countdown Timer
@@ -148,6 +151,9 @@ A countdown timer that tracks remaining time to a specific date.
 - Date and time calculations
 - Real-time UI updates
 - JavaScript intervals
+
+🔗 Live Demo:
+https://Vazgen227.github.io/portfolio/Countdown/
 
 ---
 
@@ -158,6 +164,9 @@ An application that fetches and displays GitHub user profiles using the GitHub A
 - Error handling
 - Dynamic content rendering
 
+🔗 Live Demo:
+https://Vazgen227.github.io/portfolio/GithubProfiles/
+
 ---
 
 ### 📄 Pagination Component
@@ -166,6 +175,9 @@ A reusable pagination logic example.
 - Dynamic content rendering
 - UI logic separation
 
+🔗 Live Demo:
+https://Vazgen227.github.io/portfolio/Pagination/
+
 ---
 
 ### 🔐 Password Generator
@@ -173,6 +185,9 @@ A password generator with configurable options.
 - Randomized logic
 - User input handling
 - Practical security-related UI example
+
+🔗 Live Demo:
+https://Vazgen227.github.io/portfolio/PasswordsGenerator/
 
 ---
 
