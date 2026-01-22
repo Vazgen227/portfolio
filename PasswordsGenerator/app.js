@@ -6,9 +6,11 @@ passwordEl.placeholder = 'Сгенерировать пароль';
 passwordEl.readOnly = true;
 
 const copyBtn = document.createElement('button');
+copyBtn.className = 'password-button'
 copyBtn.textContent = 'Скопировать';
 
 const generateBtn = document.createElement('button');
+generateBtn.classList ='password-button'
 generateBtn.textContent = 'Сгенерировать';
 
 generateBtn.addEventListener('click', () => {
