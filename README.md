@@ -191,6 +191,26 @@ https://Vazgen227.github.io/portfolio/PasswordsGenerator/
 
 ---
 
+Calculator — Interactive Web Calculator
+
+A responsive web calculator built with HTML, CSS, and JavaScript.
+The project demonstrates DOM manipulation, event handling, and basic application logic.
+
+Features:
+
+Basic arithmetic operations (addition, subtraction, multiplication, division)
+
+Responsive layout for mobile and desktop
+
+Clean UI and user-friendly interaction
+
+Error handling for invalid input
+
+Technologies: HTML, CSS, JavaScript
+Live demo: https://Vazgen227.github.io/portfolio/Calculator
+
+---
+
 ## Tech Stack
 - HTML5
 - CSS3
