@@ -211,6 +211,43 @@ Live demo: https://Vazgen227.github.io/portfolio/Calculator
 
 ---
 
+# Todo List App
+
+A simple and clean Todo List application built with vanilla JavaScript.
+
+## 🔧 Features
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Clean and minimal UI
+- Responsive layout
+
+## 🛠 Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+## 📌 Purpose
+This project was built as a practice app to improve understanding of:
+- DOM manipulation
+- Event handling
+- Basic application state logic
+- Clean UI structure
+
+## 🚀 How to use
+1. Type a task in the input field
+2. Press "Add" to create a task
+3. Click on a task to mark it as completed
+4. Use delete button to remove tasks
+
+## 📂 Project status
+Completed.  
+May be extended with localStorage or filters in the future.
+
+Live demo: https://Vazgen227.github.io/portfolio/ToDoList
+
+---
+
 ## Tech Stack
 - HTML5
 - CSS3
